@@ -1,6 +1,6 @@
 class CreateActors < ActiveRecord::Migration[4.2]
-  has_many :characters
-  has_many :shows, through: :characters
+  # has_many :characters
+  # has_many :shows, through: :characters
 
   def change
     create_table :actors do |t|
